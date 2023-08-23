@@ -1,6 +1,6 @@
 export const environment = {
-    production: false,
-    apiUrl: 'http://localhost:8180/api',
-    tokenName :  "authToken",
-    origin:'http://localhost:4200' 
-  };
+  production: true,
+  apiUrl: 'https://bank-api.coderstudio.co/api',
+  tokenName :  "authToken",
+  origin:'https://bank.coderstudio.co' 
+};
